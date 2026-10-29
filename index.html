@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Olympic Sports Performance Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .viz-container {
+            width: 95%;
+            max-width: 1250px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Global Olympic Sports Performance Analysis</h1>
+    <div class="viz-container">
+        <!-- Tableau Embedding API v3 Script -->
+        <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+        
+        <!-- Tableau Viz Web Component with correct embed URL format -->
+        <tableau-viz 
+            id="tableauViz" 
+            src="https://public.tableau.com/views/Book1_17933069129360/Story1?:embed=yes&:display_count=n&:showVizHome=no" 
+            device="default" 
+            toolbar="bottom" 
+            width="100%" 
+            height="850">
+        </tableau-viz>
+    </div>
+</body>
+</html>
