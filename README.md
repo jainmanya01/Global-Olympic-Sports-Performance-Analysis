@@ -41,3 +41,6 @@ This project explores global Olympic sports performance through interactive visu
  
 Open your browser and navigate to 
 http://127.0.0.1:5000/
+
+## Project Walkthrough Video
+https://drive.google.com/file/d/12SGZwCCV8Og0Rbz_So49oMMY-ZG-NEmJ/view?usp=drive_link
